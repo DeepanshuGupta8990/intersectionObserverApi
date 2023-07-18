@@ -1,4 +1,4 @@
-# intersectionObserverApi
+# intersectionObserverApi - https://64b63660d67cc2342d6453a3--tangerine-mandazi-8b2363.netlify.app/
 Intersection Observer API
 This code demonstrates the use of the Intersection Observer API to detect when an element becomes visible or hidden in the viewport. It allows you to perform certain actions or apply styles to the element based on its visibility.
 
@@ -39,3 +39,4 @@ entry.isIntersecting: Represents whether the target element is currently interse
 entry.target.classList.add('visible_class'): Adds the visible_class CSS class to the target element when it becomes visible. You can modify this line to apply your own styles or perform other actions.
 Acknowledgements
 This code is a basic implementation of the Intersection Observer API and can serve as a starting point for more advanced projects. It utilizes the browser's built-in Intersection Observer API.
+you can check out the result here - https://64b63660d67cc2342d6453a3--tangerine-mandazi-8b2363.netlify.app/
