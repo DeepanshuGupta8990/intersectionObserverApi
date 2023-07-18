@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+   
+}
+#container{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,0);
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    align-items: center;
+    overflow: hidden;
+    width: min-content;
+
+}
+#container > div > img{
+    width: 40rem;
+    transition: all 1s ease;
+
+}
+.nonVisibleclass{
+    /* opacity: 0.7; */
+    /* position: relative; */
+    /* left: 38rem; */
+    /* transform: scale(0.8); */
+    transform: scale(0.01);
+}
+.visible_class{
+    transform: scale(1);
+    /* left: 0; */
+    /* opacity: 1; */
+    /* transform: scale(1.1); */
+}
